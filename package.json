@@ -1,0 +1,9 @@
+{
+    "name" : "user.vrchat.template.templateNDMF",
+    "displayName" : "NDMF Template Project",
+    "description" : "An Avatar Template configured with most NDMF plugins",
+    "defaultScene" : "Assets/Main_Scene.unity",
+    "version" : "1.0.0",
+    "category" : "ProjectTemplate",
+    "dependencies" : {}
+}
