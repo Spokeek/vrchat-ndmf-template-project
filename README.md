@@ -2,6 +2,8 @@
 
 A VRChat NDMF Based Avatar Template Project
 
+based on modules listed at <https://github.com/Spokeek/awesome-ndmf>
+
 ## How to add as a template
 
 ### If you have git installed
