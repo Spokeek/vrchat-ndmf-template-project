@@ -50,7 +50,7 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.9.6",
+      "version": "1.9.8",
       "dependencies": {
         "com.vrchat.avatars": ">=3.4.0",
         "nadena.dev.ndmf": ">=1.3.6 <2.0.0-a"
@@ -61,11 +61,11 @@
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
-      "version": "0.5.7",
+      "version": "0.6.2",
       "dependencies": {}
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.6.7",
+      "version": "1.6.8",
       "dependencies": {
         "com.anatawa12.custom-localization-for-editor-extension": "^1.2.0",
         "nadena.dev.ndmf": "^1.3.0",
@@ -85,7 +85,7 @@
       "dependencies": {}
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
-      "version": "1.16.0",
+      "version": "1.16.1",
       "dependencies": {
         "com.vrchat.avatars": ">=3.0.9",
         "nadena.dev.modular-avatar": ">=1.0.0 <2.0.0-a"
