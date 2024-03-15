@@ -19,6 +19,9 @@ jobs:
       - name: Install vrc-get
         uses: anatawa12/sh-actions/setup-vrc-get@master
 
+      - name: Install current dependencies
+        uses: anatawa12/sh-actions/resolve-vpm-packages@master
+
       - name: Check if there is VPM updates
         id: check-outdated
         run: |
