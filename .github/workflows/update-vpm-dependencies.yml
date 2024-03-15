@@ -36,12 +36,20 @@ jobs:
           echo "OUTDATED_OUTPUT=$OUTDATED_OUTPUT" >> "$GITHUB_OUTPUT"
 
       - name: Upgrade all packages
+        id: run-upgrade
         if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
-        run: vrc-get upgrade -y
+        run: |
+          UPGRADE_OUTPUT=$(vrc-get upgrade -y)
+          echo $UPGRADE_OUTPUT
+          echo "UPGRADE_OUTPUT=$UPGRADE_OUTPUT" >> "$GITHUB_OUTPUT"
           
       - name: Commit changes
         if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          tagging_message: 'Auto - Upgrade VPM dependencies'
-          commit_message: '${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }}'
+          commit_message: |
+            Auto - Upgrade VPM dependencies
+            Outdated:
+            ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }}
+            Upgraded:
+            ${{ steps.run-upgrade.outputs.UPGRADE_OUTPUT }}
