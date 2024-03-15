@@ -33,7 +33,11 @@ jobs:
         run: |
           OUTDATED_OUTPUT=$(vrc-get outdated)
           echo $OUTDATED_OUTPUT
-          echo "OUTDATED_OUTPUT=$OUTDATED_OUTPUT" >> "$GITHUB_OUTPUT"
+          {
+            echo 'OUTDATED_OUTPUT<<EOF'
+            echo $OUTDATED_OUTPUT
+            echo EOF
+          } >> "$GITHUB_ENV"
 
       - name: Upgrade all packages
         id: run-upgrade
@@ -41,7 +45,11 @@ jobs:
         run: |
           UPGRADE_OUTPUT=$(vrc-get upgrade -y)
           echo $UPGRADE_OUTPUT
-          echo "UPGRADE_OUTPUT=$UPGRADE_OUTPUT" >> "$GITHUB_OUTPUT"
+          {
+            echo 'UPGRADE_OUTPUT<<EOF'
+            echo $UPGRADE_OUTPUT
+            echo EOF
+          } >> "$GITHUB_ENV"
           
       - name: Commit changes
         if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
