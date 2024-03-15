@@ -18,9 +18,15 @@ jobs:
 
       - name: Install vrc-get
         uses: anatawa12/sh-actions/setup-vrc-get@master
-
-      - name: Install current dependencies
-        uses: anatawa12/sh-actions/resolve-vpm-packages@master
+      
+      - name: Add VPM Repos URLs
+        run: |
+          vrc-get repo add https://vpm.nadena.dev/vpm.json && \
+          vrc-get repo add https://vpm.anatawa12.com/vpm.json && \
+          vrc-get repo add https://vpm.rs64.net/vpm.json && \
+          vrc-get repo add https://narazaka.github.io/AvatarMenuCreaterForMA/index.json && \
+          vrc-get repo add https://vpm.dreadscripts.com/listings/main.json && \
+          echo Install done
 
       - name: Check if there is VPM updates
         id: check-outdated
@@ -31,10 +37,8 @@ jobs:
 
       - name: Upgrade all packages
         if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
-        run: |
-          vrc-get upgrade -y
+        run: vrc-get upgrade -y
           
-
       - name: Commit changes
         if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
         uses: stefanzweifel/git-auto-commit-action@v5
