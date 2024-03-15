@@ -1,0 +1,40 @@
+name: Update VPM Dependencies
+
+on: 
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  upgrade-vpm-dependencies:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install vrc-get
+        uses: anatawa12/sh-actions/setup-vrc-get@master
+
+      - name: Check if there is VPM updates
+        id: check-outdated
+        run: |
+          OUTDATED_OUTPUT=$(vrc-get outdated)
+          echo $OUTDATED_OUTPUT
+          echo "OUTDATED_OUTPUT=$OUTDATED_OUTPUT" >> "$GITHUB_OUTPUT"
+
+      - name: Upgrade all packages
+        if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
+        run: |
+          vrc-get upgrade -y
+          
+
+      - name: Commit changes
+        if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} is not null
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          tagging_message: 'Auto - Upgrade VPM dependencies'
+          commit_message: '${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }}'
