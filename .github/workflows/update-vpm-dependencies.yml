@@ -28,11 +28,12 @@ jobs:
           vrc-get repo add https://vpm.dreadscripts.com/listings/main.json && \
           echo Install done
 
-      - name: Check if there is VPM updates
+      - name: Check for VPM updates
         id: check-outdated
         run: |
           OUTDATED_OUTPUT=$(vrc-get outdated)
-          echo $OUTDATED_OUTPUT
+          echo length ${#OUTDATED_OUTPUT}
+          echo "$OUTDATED_OUTPUT"
           {
             echo 'OUTDATED_OUTPUT<<EOF'
             echo $OUTDATED_OUTPUT
