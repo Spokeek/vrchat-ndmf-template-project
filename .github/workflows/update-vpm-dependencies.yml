@@ -32,11 +32,9 @@ jobs:
       - name: Check for VPM updates
         id: check-outdated
         run: |
-          outdated_text=$(vrc-get outdated)
-          echo $outdated_text
           {
             echo 'outdated_text<<EOF'
-            echo $outdated_text
+            vrc-get outdated
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
@@ -44,11 +42,9 @@ jobs:
         id: run-upgrade
         if: ${{ steps.check-outdated.outputs.outdated_text != '' }}
         run: |
-          upgrade_text=$(vrc-get upgrade -y)
-          echo $upgrade_text
           {
             echo 'upgrade_text<<EOF'
-            echo $upgrade_text
+            vrc-get upgrade -y
             echo EOF
           } >> "$GITHUB_OUTPUT"
           
