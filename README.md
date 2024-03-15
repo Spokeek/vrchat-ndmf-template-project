@@ -22,6 +22,14 @@ based on modules listed at <https://github.com/Spokeek/awesome-ndmf>
 
 - You are done
 
+### Auto Update
+
+There is a github workflow updating dependencies every day so the project is always up to date.
+
+See the file at [update-vpm-dependencies.yml](.github/workflows/update-vpm-dependencies.yml)
+
+Thank you to @anatawa12 for the cool vrc-get project and actions associated.
+
 ## How to contribute
 
 - Clone the repository at your desired path
