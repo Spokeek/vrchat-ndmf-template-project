@@ -31,34 +31,32 @@ jobs:
       - name: Check for VPM updates
         id: check-outdated
         run: |
-          OUTDATED_OUTPUT=$(vrc-get outdated)
-          echo length ${#OUTDATED_OUTPUT}
-          echo "$OUTDATED_OUTPUT"
+          outdated_output=$(vrc-get outdated)
           {
-            echo 'OUTDATED_OUTPUT<<EOF'
-            echo $OUTDATED_OUTPUT
+            echo 'outdated_output<<EOF'
+            echo $outdated_output
             echo EOF
           } >> "$GITHUB_ENV"
 
       - name: Upgrade all packages
         id: run-upgrade
-        if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} != ''
+        if: ${{ env.outdated_output }} != ''
         run: |
-          UPGRADE_OUTPUT=$(vrc-get upgrade -y)
-          echo $UPGRADE_OUTPUT
+          upgrade_output=$(vrc-get upgrade -y)
+          echo $upgrade_output
           {
-            echo 'UPGRADE_OUTPUT<<EOF'
-            echo $UPGRADE_OUTPUT
+            echo 'upgrade_output<<EOF'
+            echo $upgrade_output
             echo EOF
           } >> "$GITHUB_ENV"
           
       - name: Commit changes
-        if: ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }} != ''
+        if: ${{ env.outdated_output }} != ''
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: |
             Auto - Upgrade VPM dependencies
             Outdated:
-            ${{ steps.check-outdated.outputs.OUTDATED_OUTPUT }}
+            ${{ env.outdated_output }}
             Upgraded:
-            ${{ steps.run-upgrade.outputs.UPGRADE_OUTPUT }}
+            ${{ env.upgrade_output }}
