@@ -61,4 +61,4 @@ jobs:
             Outdated:
             ${{ steps.check-outdated.outputs.outdated_text }}
             Upgraded:
-            ${{ steps.check-outdated.outputs.upgrade_text }}
+            ${{ steps.run-upgrade.outputs.upgrade_text }}
