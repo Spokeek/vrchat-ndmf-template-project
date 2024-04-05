@@ -44,9 +44,9 @@
       "dependencies": {}
     },
     "vrchat.blackstartx.gesture-manager": {
-      "version": "3.8.8",
+      "version": "3.9.0",
       "dependencies": {
-        "com.vrchat.avatars": "3.2.x || 3.3.x || 3.4.x || 3.5.x"
+        "com.vrchat.avatars": ">=3.5.2 <3.6.X"
       }
     },
     "nadena.dev.modular-avatar": {
