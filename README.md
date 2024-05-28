@@ -4,6 +4,19 @@ A VRChat NDMF Based Avatar Template Project
 
 based on modules listed at <https://github.com/Spokeek/awesome-ndmf>
 
+## Requirements
+
+This template is based on NDMF modules that aren't available out of the box in VCC/ALCOM
+
+You will need to install the following repositories.
+For more details, check <https://github.com/Spokeek/awesome-ndmf>
+
+- Nadena (Modular Avatar/ndmf) <https://modular-avatar.nadena.dev>
+- Rs64 (TexTransTool) <https://ttt.rs64.net>
+- Anatawa (Avatar-Optimizer) <https://vpm.anatawa12.com/avatar-optimizer/en>
+- Dreadscripts (Hierachy Plus) <https://vpm.dreadscripts.com>
+- Narazaka (avatar-menu-creater-for-ma) <https://narazaka.github.io/AvatarMenuCreaterForMA>
+
 ## How to add as a template
 
 ### If you have git installed
