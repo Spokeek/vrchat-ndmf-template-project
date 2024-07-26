@@ -65,7 +65,7 @@
       "dependencies": {}
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.7.8",
+      "version": "1.7.9",
       "dependencies": {
         "com.vrchat.avatars": ">=3.3.0 <3.7.0",
         "nadena.dev.ndmf": "^1.3.0"
@@ -76,7 +76,7 @@
       "dependencies": {}
     },
     "com.anatawa12.gists": {
-      "version": "0.14.0",
+      "version": "0.14.1",
       "dependencies": {}
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
