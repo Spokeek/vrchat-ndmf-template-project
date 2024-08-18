@@ -16,6 +16,9 @@ For more details, check <https://github.com/Spokeek/awesome-ndmf>
 - Anatawa (Avatar-Optimizer) <https://vpm.anatawa12.com/avatar-optimizer/en>
 - Dreadscripts (Hierachy Plus) <https://vpm.dreadscripts.com>
 - Narazaka (avatar-menu-creater-for-ma) <https://narazaka.github.io/AvatarMenuCreaterForMA>
+- Hai (Prefabulous) <https://docs.hai-vr.dev/docs/products/prefabulous-avatar>
+
+If you are using the [ALCOM Package manager](https://vrc-get.anatawa12.com/alcom/), you can install all the missing repositories by importing the [repositories.txt](repositories.txt) file in your repository list.
 
 ## How to add as a template
 

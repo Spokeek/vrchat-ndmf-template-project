@@ -22,12 +22,10 @@ jobs:
       
       - name: Add VPM Repos URLs
         run: |
-          vrc-get repo add https://vpm.nadena.dev/vpm.json && \
-          vrc-get repo add https://vpm.anatawa12.com/vpm.json && \
-          vrc-get repo add https://vpm.rs64.net/vpm.json && \
-          vrc-get repo add https://narazaka.github.io/AvatarMenuCreaterForMA/index.json && \
-          vrc-get repo add https://vpm.dreadscripts.com/listings/main.json && \
-          echo Install done
+          cat repositories.txt | while read repo ; do
+            echo adding repository $repo
+            vrc-get repo add $repo
+          done
 
       - name: Check for VPM updates
         id: check-outdated

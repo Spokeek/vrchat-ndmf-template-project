@@ -26,17 +26,20 @@
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
       "version": "1.15.1"
+    },
+    "dev.hai-vr.resilience.prefabulous": {
+      "version": "2.0.0"
     }
   },
   "locked": {
     "com.vrchat.avatars": {
-      "version": "3.7.0",
+      "version": "3.6.1",
       "dependencies": {
-        "com.vrchat.base": "3.7.0"
+        "com.vrchat.base": "3.6.1"
       }
     },
     "com.vrchat.base": {
-      "version": "3.7.0",
+      "version": "3.6.1",
       "dependencies": {}
     },
     "com.vrchat.core.vpm-resolver": {
@@ -84,6 +87,40 @@
       "dependencies": {
         "com.vrchat.avatars": ">=3.0.9",
         "nadena.dev.modular-avatar": ">=1.0.0 <2.0.0-a"
+      }
+    },
+    "dev.hai-vr.animator-as-code.v1": {
+      "version": "1.0.9940",
+      "dependencies": {}
+    },
+    "dev.hai-vr.resilience.prefabulous": {
+      "version": "2.0.0",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.1.0 <3.7.0-a",
+        "dev.hai-vr.animator-as-code.v1": "~1.0.9940",
+        "dev.hai-vr.animator-as-code.v1.modular-avatar": "~1.0.9940",
+        "dev.hai-vr.animator-as-code.v1.vrchat": "~1.0.9940",
+        "dev.hai-vr.resilience.prefabulous.universal": ">=2.0.0 <3.0.0-a",
+        "nadena.dev.modular-avatar": ">=1.9.9 <2.0.0-a"
+      }
+    },
+    "dev.hai-vr.animator-as-code.v1.vrchat": {
+      "version": "1.0.9940",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.3.0 <3.7.0-a",
+        "dev.hai-vr.animator-as-code.v1": "~1.0.9940"
+      }
+    },
+    "dev.hai-vr.resilience.prefabulous.universal": {
+      "version": "2.0.3",
+      "dependencies": {}
+    },
+    "dev.hai-vr.animator-as-code.v1.modular-avatar": {
+      "version": "1.0.9940",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.3.0 <3.7.0-a",
+        "dev.hai-vr.animator-as-code.v1": "~1.0.9940",
+        "nadena.dev.modular-avatar": ">=1.9.9 <2.0.0-a"
       }
     }
   }
