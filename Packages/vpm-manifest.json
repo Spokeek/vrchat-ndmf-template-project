@@ -47,13 +47,13 @@
       "dependencies": {}
     },
     "vrchat.blackstartx.gesture-manager": {
-      "version": "3.9.1",
+      "version": "3.9.2",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.5.2 <3.7.X"
+        "com.vrchat.avatars": ">=3.5.2 <3.8.X"
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.9.14",
+      "version": "1.9.15",
       "dependencies": {
         "com.vrchat.avatars": ">=3.4.0",
         "nadena.dev.ndmf": ">=1.4.1 <2.0.0-a"
@@ -83,7 +83,7 @@
       "dependencies": {}
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
-      "version": "1.21.2",
+      "version": "1.22.0",
       "dependencies": {
         "com.vrchat.avatars": ">=3.0.9",
         "nadena.dev.modular-avatar": ">=1.0.0 <2.0.0-a"
