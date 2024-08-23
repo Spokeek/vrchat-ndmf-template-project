@@ -94,12 +94,12 @@
       "dependencies": {}
     },
     "dev.hai-vr.resilience.prefabulous": {
-      "version": "2.0.0",
+      "version": "2.1.0",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.1.0 <3.7.0-a",
-        "dev.hai-vr.animator-as-code.v1": "~1.0.9940",
-        "dev.hai-vr.animator-as-code.v1.modular-avatar": "~1.0.9940",
-        "dev.hai-vr.animator-as-code.v1.vrchat": "~1.0.9940",
+        "com.vrchat.avatars": ">=3.1.0 <3.8.0-a",
+        "dev.hai-vr.animator-as-code.v1": ">=1.0.9940 <1.2.0-a",
+        "dev.hai-vr.animator-as-code.v1.modular-avatar": ">=1.0.9940 <1.2.0-a",
+        "dev.hai-vr.animator-as-code.v1.vrchat": ">=1.0.9940 <1.2.0-a",
         "dev.hai-vr.resilience.prefabulous.universal": ">=2.0.0 <3.0.0-a",
         "nadena.dev.modular-avatar": ">=1.9.9 <2.0.0-a"
       }
@@ -112,7 +112,7 @@
       }
     },
     "dev.hai-vr.resilience.prefabulous.universal": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "dependencies": {}
     },
     "dev.hai-vr.animator-as-code.v1.modular-avatar": {
