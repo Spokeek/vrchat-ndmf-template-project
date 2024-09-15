@@ -53,7 +53,7 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.9.15",
+      "version": "1.9.16",
       "dependencies": {
         "com.vrchat.avatars": ">=3.4.0",
         "nadena.dev.ndmf": ">=1.4.1 <2.0.0-a"
