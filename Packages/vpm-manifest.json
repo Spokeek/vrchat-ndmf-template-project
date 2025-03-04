@@ -64,7 +64,7 @@
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
-      "version": "0.9.1",
+      "version": "0.9.2",
       "dependencies": {}
     },
     "com.anatawa12.avatar-optimizer": {
@@ -83,7 +83,7 @@
       "dependencies": {}
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
-      "version": "1.29.0",
+      "version": "1.30.0",
       "dependencies": {
         "com.vrchat.avatars": ">=3.0.9",
         "nadena.dev.modular-avatar": ">=1.0.0 <2.0.0-a"
