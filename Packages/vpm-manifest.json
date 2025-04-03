@@ -53,14 +53,14 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.12.0",
+      "version": "1.12.1",
       "dependencies": {
         "com.vrchat.avatars": ">=3.7.4",
-        "nadena.dev.ndmf": ">=1.7.0 <2.0.0-a"
+        "nadena.dev.ndmf": ">=1.7.1 <2.0.0-a"
       }
     },
     "nadena.dev.ndmf": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
