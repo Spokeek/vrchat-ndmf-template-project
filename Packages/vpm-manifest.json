@@ -47,9 +47,9 @@
       "dependencies": {}
     },
     "vrchat.blackstartx.gesture-manager": {
-      "version": "3.9.3",
+      "version": "3.9.4",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.5.2 <3.8.X"
+        "com.vrchat.avatars": ">=3.5.2 <3.9.X"
       }
     },
     "nadena.dev.modular-avatar": {
@@ -60,7 +60,7 @@
       }
     },
     "nadena.dev.ndmf": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
@@ -68,9 +68,9 @@
       "dependencies": {}
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.7.0 <3.8.0",
+        "com.vrchat.avatars": ">=3.7.0 <3.9.0",
         "nadena.dev.ndmf": "^1.6.0"
       }
     },
