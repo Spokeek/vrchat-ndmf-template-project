@@ -64,8 +64,10 @@
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
-      "version": "0.9.3",
-      "dependencies": {}
+      "version": "0.10.0",
+      "dependencies": {
+        "net.rs64.tex-trans-core": "^0.1.0"
+      }
     },
     "com.anatawa12.avatar-optimizer": {
       "version": "1.8.10",
@@ -122,6 +124,10 @@
         "dev.hai-vr.animator-as-code.v1": ">=1.1.0 <2.0.0-a",
         "nadena.dev.modular-avatar": ">=1.9.9 <2.0.0-a"
       }
+    },
+    "net.rs64.tex-trans-core": {
+      "version": "0.1.0",
+      "dependencies": {}
     }
   }
 }
