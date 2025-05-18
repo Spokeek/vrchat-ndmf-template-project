@@ -64,9 +64,9 @@
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
-      "version": "0.10.1",
+      "version": "0.10.3",
       "dependencies": {
-        "net.rs64.tex-trans-core": "^0.1.1"
+        "net.rs64.tex-trans-core": "^0.1.2"
       }
     },
     "com.anatawa12.avatar-optimizer": {
@@ -126,7 +126,7 @@
       }
     },
     "net.rs64.tex-trans-core": {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "dependencies": {}
     }
   }
