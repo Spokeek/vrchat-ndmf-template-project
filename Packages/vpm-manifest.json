@@ -33,13 +33,13 @@
   },
   "locked": {
     "com.vrchat.avatars": {
-      "version": "3.8.0",
+      "version": "3.8.1",
       "dependencies": {
-        "com.vrchat.base": "3.8.0"
+        "com.vrchat.base": "3.8.1"
       }
     },
     "com.vrchat.base": {
-      "version": "3.8.0",
+      "version": "3.8.1",
       "dependencies": {}
     },
     "com.vrchat.core.vpm-resolver": {
@@ -70,7 +70,7 @@
       }
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.8.10",
+      "version": "1.8.11",
       "dependencies": {
         "com.vrchat.avatars": ">=3.7.0 <3.9.0",
         "nadena.dev.ndmf": "^1.6.0"
