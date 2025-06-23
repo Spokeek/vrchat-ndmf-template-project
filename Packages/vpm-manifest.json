@@ -64,7 +64,7 @@
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
-      "version": "0.10.10",
+      "version": "1.0.0",
       "dependencies": {
         "net.rs64.tex-trans-core": "^0.2.0"
       }
