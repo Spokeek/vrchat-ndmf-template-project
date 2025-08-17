@@ -14,7 +14,7 @@ For more details, check <https://github.com/Spokeek/awesome-ndmf>
 - Nadena (Modular Avatar/ndmf) <https://modular-avatar.nadena.dev>
 - Rs64 (TexTransTool) <https://ttt.rs64.net>
 - Anatawa (Avatar-Optimizer) <https://vpm.anatawa12.com/avatar-optimizer/en>
-- Dreadscripts (Hierachy Plus) <https://vpm.dreadscripts.com>
+- Dreadscripts (Hierachy Plus) (Mirrored by VRLabs) <https://api.vrlabs.dev/listings/category/Rehosted>
 - Narazaka (avatar-menu-creater-for-ma) <https://narazaka.github.io/AvatarMenuCreaterForMA>
 - Hai (Prefabulous) <https://docs.hai-vr.dev/docs/products/prefabulous-avatar>
 
