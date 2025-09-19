@@ -53,14 +53,14 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.14.2",
+      "version": "1.14.3",
       "dependencies": {
         "com.vrchat.avatars": ">=3.7.4",
-        "nadena.dev.ndmf": ">=1.9.1 <2.0.0-a"
+        "nadena.dev.ndmf": ">=1.9.2 <2.0.0-a"
       }
     },
     "nadena.dev.ndmf": {
-      "version": "1.9.1",
+      "version": "1.9.2",
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
@@ -77,7 +77,7 @@
       }
     },
     "com.anatawa12.gists": {
-      "version": "0.18.3",
+      "version": "0.19.0",
       "dependencies": {}
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
