@@ -70,9 +70,9 @@
       }
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.8.14",
+      "version": "1.8.15",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.7.0 <3.10.0",
+        "com.vrchat.avatars": ">=3.7.0 <3.11.0",
         "nadena.dev.ndmf": "^1.6.0"
       }
     },
