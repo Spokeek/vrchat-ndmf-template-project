@@ -33,13 +33,13 @@
   },
   "locked": {
     "com.vrchat.avatars": {
-      "version": "3.9.0",
+      "version": "3.10.0",
       "dependencies": {
-        "com.vrchat.base": "3.9.0"
+        "com.vrchat.base": "3.10.0"
       }
     },
     "com.vrchat.base": {
-      "version": "3.9.0",
+      "version": "3.10.0",
       "dependencies": {}
     },
     "com.vrchat.core.vpm-resolver": {
@@ -53,14 +53,13 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.14.3",
+      "version": "1.15.0",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.7.4",
-        "nadena.dev.ndmf": ">=1.9.2 <2.0.0-a"
+        "nadena.dev.ndmf": ">=1.10.0 <2.0.0-a"
       }
     },
     "nadena.dev.ndmf": {
-      "version": "1.9.4",
+      "version": "1.10.0",
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
@@ -70,7 +69,7 @@
       }
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.8.15",
+      "version": "1.8.16",
       "dependencies": {
         "com.vrchat.avatars": ">=3.7.0 <3.11.0",
         "nadena.dev.ndmf": "^1.6.0"
