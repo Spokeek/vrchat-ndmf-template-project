@@ -109,7 +109,7 @@
       }
     },
     "dev.hai-vr.resilience.prefabulous.universal": {
-      "version": "2.1.0",
+      "version": "2.2.0",
       "dependencies": {}
     },
     "dev.hai-vr.animator-as-code.v1.modular-avatar": {
