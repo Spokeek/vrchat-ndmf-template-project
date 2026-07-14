@@ -69,14 +69,14 @@
       }
     },
     "com.anatawa12.avatar-optimizer": {
-      "version": "1.9.15",
+      "version": "1.9.16",
       "dependencies": {
         "com.vrchat.avatars": ">=3.7.0 <3.11.0",
         "nadena.dev.ndmf": ">=1.8.0 <2.0.0"
       }
     },
     "com.anatawa12.gists": {
-      "version": "0.25.2",
+      "version": "0.25.3",
       "dependencies": {}
     },
     "net.narazaka.vrchat.avatar-menu-creater-for-ma": {
