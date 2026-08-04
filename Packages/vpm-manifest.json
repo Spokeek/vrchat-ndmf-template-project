@@ -53,13 +53,13 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.18.0",
+      "version": "1.18.1",
       "dependencies": {
-        "nadena.dev.ndmf": ">=1.11.0 <2.0.0-a"
+        "nadena.dev.ndmf": ">=1.14.3 <2.0.0-a"
       }
     },
     "nadena.dev.ndmf": {
-      "version": "1.14.2",
+      "version": "1.14.3",
       "dependencies": {}
     },
     "net.rs64.tex-trans-tool": {
