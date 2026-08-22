@@ -53,7 +53,7 @@
       }
     },
     "nadena.dev.modular-avatar": {
-      "version": "1.18.2",
+      "version": "1.18.3",
       "dependencies": {
         "nadena.dev.ndmf": ">=1.14.3 <2.0.0-a"
       }
